@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+}
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at top left, rgba(77, 184, 199, 0.25), transparent 45%),
+    radial-gradient(circle at bottom right, rgba(53, 143, 95, 0.3), transparent 50%);
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight text-neutral-900 md:text-4xl;
+}
+
+.section-subtitle {
+  @apply text-base text-neutral-600 md:text-lg;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full bg-brand/10 px-3 py-1 text-sm font-medium text-brand-dark;
+}
+
+.dark-gradient {
+  background: linear-gradient(120deg, #0d1a16 0%, #162620 60%, #1a2e29 100%);
+}
+
+.grid-overlay {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Teal color combinations with proper contrast */
+.teal-card {
+  @apply bg-brand-teal-dark text-white;
+}
+
+.teal-card-light {
+  @apply bg-brand-teal-pale text-brand-teal-dark;
+}
+
+.teal-badge {
+  @apply bg-brand-teal/10 text-brand-teal-dark;
+}
