@@ -29,7 +29,7 @@ export function TrustSection() {
         <div className="relative overflow-hidden rounded-3xl bg-brand-dark p-1">
           <div className="relative h-full w-full overflow-hidden rounded-[26px] bg-neutral-900">
             <Image
-              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+              src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?auto=format&fit=crop&w=1200&q=80"
               alt="EVABO team sorting recyclables at materials recovery facility"
               width={1200}
               height={900}

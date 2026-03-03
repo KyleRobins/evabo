@@ -15,11 +15,15 @@ export function ServicesSection() {
       <Container>
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="badge bg-brand-teal/20 text-brand-teal-light">Waste Management Solutions</p>
-            <h2 className="section-title text-white">Tailored Recycling Programs For You</h2>
+            <p className="badge bg-brand-teal/20 text-brand-teal-light">
+              Waste Management Solutions
+            </p>
+            <h2 className="text-3xl font-semibold tracking-tight text-white/50 md:text-4xl">
+              Tailored Recycling Programs For You
+            </h2>
             <p className="section-subtitle text-white/80">
-              From zero-waste estates to corporate recycling loops, EVABO crafts practical, data-backed
-              interventions for every partner.
+              From zero-waste estates to corporate recycling loops, EVABO crafts practical,
+              data-backed interventions for every partner.
             </p>
           </div>
           <Button variant="secondary" className="bg-white text-charcoal hover:bg-ash" asChild>

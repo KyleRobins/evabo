@@ -14,7 +14,7 @@ export function TestimonialsSection() {
         <div className="mb-10 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="badge bg-brand-teal/20 text-brand-teal-light">Hear It From Our Clients</p>
-            <h2 className="section-title text-white">Waste Management Partners Love Working With EVABO</h2>
+            <h2 className="text-3xl font-semibold tracking-tight text-white/50 md:text-4xl">Waste Management Partners Love Working With EVABO</h2>
             <p className="section-subtitle text-white/80">
               Partners across Kenya trust EVABO for dependable collections, transparent data, and
               compliance peace of mind.
@@ -31,9 +31,9 @@ export function TestimonialsSection() {
               transition={{ delay: index * 0.1 }}
               className="rounded-3xl border border-white/10 bg-black/30 p-6"
             >
-              <div className="mb-4 flex items-center gap-2 text-brand-teal">
+              <div className="mb-4 flex items-center gap-2 text-yellow-400">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-brand-teal text-brand-teal" />
+                  <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
               <p className="text-sm text-white/90">{testimonial.quote}</p>

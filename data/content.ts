@@ -33,44 +33,42 @@ export const services = [
     title: 'Household Pickups',
     description:
       'Scheduled door-to-door waste sorting, collection and recycling for households and residential estates.',
-    image:
-      'https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1690211506506-57486e819dda'
   },
   {
     title: 'Corporate Waste Audits',
     description:
       'Environmental audits, staff training, and closed-loop recycling programs tailored to Kenyan enterprises.',
-    image:
-      'https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=900&q=80'
+    image: 'https://images.unsplash.com/photo-1648765342358-63032166fa68'
   },
   {
     title: 'Organic Waste Recovery',
     description:
       'Food waste diversion that transforms organic streams into biogas and nutrient-rich compost.',
     image:
-      'https://images.unsplash.com/photo-1508873535684-277a3cbcc4e1?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'E-waste Collection',
-    description:
-      'Responsible take-back, dismantling, and recycling of electronics, batteries, and cables.',
-    image:
-      'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'Zero Waste Events',
-    description:
-      'Green event planning, onsite segregation teams, and traceable reporting for conferences and festivals.',
-    image:
-      'https://images.unsplash.com/photo-1581578731548-c64695cc6950?auto=format&fit=crop&w=900&q=80'
-  },
-  {
-    title: 'School Eco Clubs',
-    description:
-      'Hands-on environmental education and recycling programs that mobilise young climate champions.',
-    image:
-      'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=900&q=80'
+      'https://images.unsplash.com/photo-1516711345667-ebafb3ebea12?auto=format&fit=crop&w=900&q=80'
   }
+  // {
+  //   title: 'E-waste Collection',
+  //   description:
+  //     'Responsible take-back, dismantling, and recycling of electronics, batteries, and cables.',
+  //   image:
+  //     'https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=900&q=80'
+  // }
+  // {
+  //   title: 'Zero Waste Events',
+  //   description:
+  //     'Green event planning, onsite segregation teams, and traceable reporting for conferences and festivals.',
+  //   image:
+  //     'https://images.unsplash.com/photo-1581578731548-c64695cc6950?auto=format&fit=crop&w=900&q=80'
+  // },
+  // {
+  //   title: 'School Eco Clubs',
+  //   description:
+  //     'Hands-on environmental education and recycling programs that mobilise young climate champions.',
+  //   image:
+  //     'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=900&q=80'
+  // }
 ];
 
 export const differentiators = [
@@ -247,7 +245,7 @@ export const faqs = [
 ];
 
 export const contactInfo = {
-  addressLine: 'EVABO Kenya, Embakasi, Nairobi',
+  addressLine: 'Kutana Place (Coworking and Meeting space) Nairobi',
   email: 'hello@evabokenya.org',
-  phone: '+254 700 123 456'
+  phone: '254202467469 / 254724536882'
 };
